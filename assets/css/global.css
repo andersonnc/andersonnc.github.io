@@ -1,0 +1,45 @@
+/* REMOVER BORDA DO ELEMENTOS */
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+/* FONTES EXTERNAS */
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonte/Nunito-ExtraLight.ttf);
+}
+
+/* FONTES */
+.fonte-nunito{
+    font-family: 'Nunito'; /* These fonts are licensed under the Open Font License. */
+}
+
+::-webkit-scrollbar              { /* 1 */ }
+::-webkit-scrollbar-button       { /* 2 */ }
+::-webkit-scrollbar-track        { /* 3 */ }
+::-webkit-scrollbar-track-piece  { /* 4 */ }
+::-webkit-scrollbar-thumb        { /* 5 */ }
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
+
+
+/* SELECIONAR TEXTO NA PÁGINA
+::selection {
+    color: rgb(29, 29, 29);
+    background-color: rgba(0, 255, 255, 0.274);
+}
+*/
